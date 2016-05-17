@@ -1,0 +1,38 @@
+git add .
+git commit
+git push origin master
+
+/**
+
+298  git init
+299  git status
+300  git add .
+301  git status
+302  git add index.html
+303  git commit
+304  git config --global user.email "rpanzer87@gmail.com"
+305  git config --global user.name "rimida"
+306  git commit
+307  ls -al ~/.ssh
+308  ssh-keygen -t rsa -b 4096 -C "rpanzer87@gmail.com"
+309  eval "$(ssh-agent -s)"
+310  ssh-add ~/.ssh/id_rsa
+311  sudo apt-get install xclip
+312  xclip -sel clip < ~/.ssh/id_rsa.pub
+313  git remote -v
+314  git remote add origin git@github.com:rimida/example-site.git
+315  git push -u origin master
+316  git remote -v
+
+
+➜  personalwebsite git:(master) git push --help
+➜  personalwebsite git:(master) ✗ git push origin master
+➜  personalwebsite git:(master) ✗ git push
+➜  personalwebsite git:(master) ✗ git push origin master
+➜  personalwebsite git:(master) ✗ git branch
+* master
+➜  personalwebsite git:(master) ✗ git checkout -b future-branch
+Switched to a new branch 'future-branch'
+➜  personalwebsite git:(future-branch) ✗
+
+**/
