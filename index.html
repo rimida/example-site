@@ -3,9 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Rimida Panzer | Developer</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+
   </head>
   <body>
     <header>
@@ -23,38 +34,45 @@
     </header>
     <div id="wrapper">
       <section>
-        <ul id="gallery">
-          <li>
+        <div id="gallery" class="row">
+          <?php
+            function writeMsg() {
+                echo "Hello world!";
+            }
+
+            writeMsg(); // call the function
+          ?>
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="img/numbers-01.jpg">
               <img src="img/numbers-01.jpg" alt="">
               <p>Experimentation with color and texture.</p>
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="img/numbers-02.jpg">
               <img src="img/numbers-02.jpg" alt="">
               <p>Playing with blending modes in Photoshop.</p>
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="img/numbers-06.jpg">
               <img src="img/numbers-06.jpg" alt="">
               <p>Trying to create an 80's style of glows.</p>
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="img/numbers-09.jpg">
               <img src="img/numbers-09.jpg" alt="">
               <p>Drips created using Photoshop brushes.</p>
             </a>
-          </li>
-          <li>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="img/numbers-12.jpg">
               <img src="img/numbers-12.jpg" alt="">
               <p>Creating shapes using repetition.</p>
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
       <footer>
         <a href="http://facebook.com/rimida">
